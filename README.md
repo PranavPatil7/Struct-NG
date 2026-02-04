@@ -1,6 +1,6 @@
-# Surface Reconstruction from 3D Gaussian Splatting via Local Structural Hints
+# Struct NG – Geometry Guided Gaussian Splatting                                                                     
 
-[[`Project Page`](https://qianyiwu.github.io/gsrec)][[`arxiv`]()]
+
 
 
 ## Overview
@@ -74,26 +74,5 @@ You can use the following code to extract mesh. Take the outputs from previous s
 python extract_mesh.py -m outputs/scan1 --mesh_type poisson
 ```
 
-## Citation
-
-If you find our work helpful, please consider citing:
-
-```bibtex
-@inproceedings{Wu2024gsrec,
-        author    = {Wu, Qianyi and Zheng, Jianmin and Cai, Jianfei},
-        title     = {Surface Reconstruction from 3D Gaussian Splatting via Local Structural Hints},
-        booktitle = {European Conference on Computer Vision},
-        year      = {2024}
-    }
-```
-
-## LICENSE
-
-Please follow the LICENSE of [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting).
-
-## Concurrent Works
-Surface reconstruction for 3DGS is a very important task and we found several concurrent works along this direction. You can check the [``Related links``](https://wuqianyi.top/gsrec) in our project page. These works are super cool and insightful.
-
-## Acknowledgement
 
 We thank all authors from [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting) for presenting such an excellent work. We also thanks all the authors from [Scaffold-GS](https://arxiv.org/abs/2312.00109), which we choose as a base model. 
